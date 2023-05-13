@@ -42,14 +42,14 @@ curl -s "http://localhost:3000/members?id=2" | jq .
 
 ```json
 {
-        "id": "2",
-        "name": "潮 紗理菜",
-        "birthdate": "1997年12月26日",
-        "bloodType": "O型",
-        "height": "157",
-        "birthplace": "神奈川県",
-        "photoUrl": "https://cdn.hinatazaka46.com/images/14/2c5/84228699afa9e410588e33d76d4e2/1000_1000_102400.jpg"
-    }
+    "id": "2",
+    "name": "潮 紗理菜",
+    "birthdate": "1997年12月26日",
+    "bloodType": "O",
+    "height": "157",
+    "birthplace": "神奈川県",
+    "photoUrl": "https://cdn.hinatazaka46.com/images/14/2c5/84228699afa9e410588e33d76d4e2/1000_1000_102400.jpg"
+}
 ```
 
 ## Endpoints
