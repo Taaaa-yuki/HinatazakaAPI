@@ -66,5 +66,5 @@ The available query parameters for the /members endpoint are:
 
 ## Dependencies
 
-[node.js](https://nodejs.org/en/)
+[node.js](https://nodejs.org/en/)  
 [Express](https://expressjs.com/)
