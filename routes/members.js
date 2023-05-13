@@ -3,7 +3,7 @@ const router = express.Router();
 const members = require('../data/members.json');
 
 router.get('/', (req, res) => {
-  const { id, name, birthdate, bloodType, height,birthplace, photoUrl } = req.query;
+  const { id, name, birthdate, bloodType, height, birthplace, photoUrl } = req.query;
   let filteredMembers = members;
 
   if (id) {
